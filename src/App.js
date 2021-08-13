@@ -6,13 +6,10 @@ import Home from './components/pages/Home';
 
 function App() {
   return (
-    // <> 
     <Router>
       <Navbar />
-      <switch> <Route path="/" exact component={ Home } /> </switch>
+        <switch> <Route path="/" exact component={ Home } /> </switch>
     </Router>
-      
-    // </>
   );
 }
 
